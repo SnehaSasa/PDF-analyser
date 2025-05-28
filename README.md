@@ -20,11 +20,11 @@ This is a CLI-based Retrieval-Augmented Generation (RAG) system that allows you 
 
 3. Install Dependencies
 
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 4. Download Required Models (if not downloaded automatically)
 
-The system uses HuggingFace models like flan-t5-base and all-MiniLM-L6-v2. These will be downloaded automatically when run for the first time. Internet connection is required for the first run.
+   The system uses HuggingFace models like flan-t5-base and all-MiniLM-L6-v2. These will be downloaded automatically when run for the first time. Internet connection is required for the first run.
 
 
 
@@ -32,11 +32,11 @@ The system uses HuggingFace models like flan-t5-base and all-MiniLM-L6-v2. These
 
 1. Run the RAG CLI
 
-python main.py Quantrail-Data.txt
+   python main.py Quantrail-Data.txt
 
 2. Enter a question:
 
-Ask something (or type 'exit'): What is the notice period?
+   Ask something (or type 'exit'): What is the notice period?
 
 The system will retrieve the most relevant chunks from the document and generate a grounded answer using the LLM.
 
