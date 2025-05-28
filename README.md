@@ -10,13 +10,13 @@ This is a CLI-based Retrieval-Augmented Generation (RAG) system that allows you 
 
 1. Clone the Repository
 
-git clone https://github.com/SnehaSasa/PDF-analyser
-cd PDF-analyser
+   git clone https://github.com/SnehaSasa/PDF-analyser
+   cd PDF-analyser
 
 2. Create a Virtual Environment
 
-python -m venv venv
-./myvenv/Scripts/activate
+   python -m venv venv
+   ./myvenv/Scripts/activate
 
 3. Install Dependencies
 
