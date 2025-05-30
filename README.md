@@ -34,7 +34,11 @@ This is a CLI-based Retrieval-Augmented Generation (RAG) system that allows you 
 
    python main.py Quantrail-Data.txt
 
-2. Enter a question:
+   If Streamlit is being used: 
+   
+   streamlit run main.py
+
+3. Enter a question:
 
    Ask something (or type 'exit'): What is the notice period?
 
